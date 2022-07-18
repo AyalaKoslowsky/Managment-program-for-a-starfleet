@@ -1,3 +1,5 @@
+package il.ac.tau.cs.sw1.ex9.starfleet;
+
 public class Officer extends CrewWoman{
 
 	private OfficerRank rank;
