@@ -32,4 +32,5 @@ public class Bomber extends mySpaceshipAbstract{
 	public int getAnnualMaintenanceCost(){return AnnualMaintenanceCost;}
 	public String toString(){return getToStringMutual() + System.lineSeparator() +tab+"WeaponsArray=" + this.getWeapons().toString()+
 			System.lineSeparator()+tab+"NumberOfTechnicians="+ this.getNumberOfTechnicians();}
+	
 }
